@@ -1,0 +1,272 @@
+body{ max-width: fixed;
+    max-height: fixed;
+    
+       
+        background-color:white;
+
+}
+
+
+header{ width:1450px;
+        height:170px;
+    background-color: rgb(24, 24, 116);}
+
+
+header.logo{   background-color:white;
+        float:left;
+        margin-top: 20px;
+          margin-left: 50px;;
+          height: 200px;
+          width:1500px;
+          padding:0;
+           margin:0;
+}
+section nav {  
+        text-align:start;
+        background-color:white;
+     overflow: hidden;
+          width:1500px;
+         display:flex;
+         margin-left: 0px;
+     align-items: center;
+     }
+    
+    section nav ul{ 
+    text-align:center;
+    list-style :none;}
+    
+    section nav ul li{
+        width: 280px;
+         display: inline-block;
+     margin: 0px 38px;
+    }
+    
+    section nav ul li a{
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 30px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 20px 30px;
+    }
+    
+    section nav ul li a:hover{
+    background-color:rgb(235, 237, 237);
+    height: 20px;
+    color: rgb(30, 24, 24);
+    }
+    
+    a:hover active {
+    
+    color:rgb(139, 54, 54);
+    }
+    a{ padding-left:0;
+    padding-right:1000px;}
+
+    sect nav {  
+        text-align:start;
+        background-color:rgb(244, 244, 221);
+     overflow: hidden;
+          width:1500px;
+          height:100px;
+         display:flex;
+         margin-left: 0px;
+     align-items: center;
+     }
+    
+    sect nav ul{ 
+    text-align:center;
+    list-style:circle;}
+    
+    sect nav ul li{
+         display: inline-block;
+     margin: 0px 38px;
+    }
+    
+    sect nav ul li a{
+    text-align: center;
+    border: 2px solid rgb(125, 95, 22);
+    border-radius: 40%;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 35px 20px;
+    }
+    
+    sect nav ul li a:hover{
+    background-color:rgb(211, 211, 205);
+    height: 20px;
+    color: rgb(30, 24, 24);
+    }
+    
+    a:hover active {
+    color:rgb(139, 54, 54);
+    }
+    a{ padding-left:0;
+    padding-right:1000px;}
+
+    kaung1{ height:400px; 
+        background-image: url("plant-2004483_1280.jpg") no-repeat;
+        width:200px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .kaung1.login-box{
+        text-align: center;
+        margin-left: 300px;
+        position: absolute;
+        width:1000px;
+        height:300px;
+        background-color: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        display: flex;
+       backdrop-filter:blur(50px);
+    }
+
+    .login-box h2{
+        font-size: 28px;
+        color: #100d0d;
+        text-align: center;
+    }
+.login-box .input-box{
+    position : relative;
+    width: 310px;
+   margin: 30px 0;
+   border-bottom: 2px solid #070707;
+   text-align: center;
+   margin-left: 105px;
+}
+
+   .input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border:none;
+    outline: none;
+    font-size: 16px;
+    color:#0a0909;
+    padding: 0 35px 0 5px;
+}
+
+.input-box input::placeholder{color: #ece8e8;}
+.input-box.icon{
+    position: absolute;
+    right:8px;
+    color: #0c0303;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+
+.image {
+    /* Add background img */
+    background-image: url("plant-2004483_1280.jpg");
+  
+    /* Use filter to add blur effect */
+    filter: blur(5px);
+    
+    height: 400px;
+  
+    /* Center the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Style the text */
+  .text {
+    background-color: rgba(0, 0, 0, 0.4); /* Black partially transparent background */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #ffffff;
+    position: absolute;
+    top: 600px;
+    left: 525px;
+    right:150px;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  sect nav {  
+    text-align:start;
+    background-color:rgb(244, 244, 221);
+ overflow: hidden;
+      width:800px;
+      height:100px;
+     display:flex;
+     margin-left: 0px;
+ align-items: center;
+ }
+
+set nav ul{ 
+text-align:center;
+list-style:circle;}
+
+set nav ul li{
+     display: inline-block;
+ margin: 0px 38px;
+}
+
+set nav ul li a{
+text-align: center;
+border: 2px solid rgb(125, 95, 22);
+border-radius: 40%;
+padding: 30px;
+font-size: 20px;
+color: black;
+text-decoration: none;
+transition: 0.3s;
+padding: 35px 20px;
+}
+
+set nav ul li a:hover{
+background-color:rgb(229, 228, 219);
+height: 20px;
+color: rgb(30, 24, 24);
+}
+
+a:hover active {
+color:rgb(139, 54, 54);
+}
+a{ padding-left:0;
+padding-right:1000px;}
+
+
+k1{ height:400px; 
+    background-image: url("plant-2004483_1280.jpg") no-repeat;
+    width:400px;
+    height: 400px;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+.k1.login-box{
+    text-align: center;
+    margin-left: 300px;
+    position: absolute;
+    width:800px;
+    height:300px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    display: flex;
+
+   backdrop-filter:blur(50px);
+
+}
+
+
+  

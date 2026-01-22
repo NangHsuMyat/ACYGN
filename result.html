@@ -1,0 +1,74 @@
+<html>
+
+<head><title>Result</title><link rel="Stylesheet" href="index.css"></head>
+
+    <body>
+        <header>
+
+<table>
+<tr><td><logo><image src="dos-logo-light.png"style="width:100; height:100; margin-top:20px; margin-left:50px"></image></logo></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>           
+    <td><br> <h1 style="color:rgb(51, 130, 199);font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> American Center Yangon</h1></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+    
+</tr>
+</table> 
+<hr style="background-color:rgb(242, 78, 78);width:1450px; height:15px;">
+    </header>
+    
+   
+    <section>
+        <nav><ul>
+            <li><a href= "index.html"> Home</a> </li>
+            <li><a href= "lvltest.html"> Free English Test</a> </li>
+            <li><a href= "education&culture.html">Education and Culture</a></li>
+            <li><a href= "embassy.html">    Embassy</a></li>
+            </ul></nav>
+        </section>
+        
+
+        <h2 style="text-align:center; color:rgb(245, 242, 242);margin-left:25px;width: 1400px;; background-color:rgb(21, 19, 61) ;"><b>Test   Your   English</b></h2>
+       <div style="width:850px; height:500px; text-align: center; margin-left:80px;background-color: rgb(234, 235, 231);  margin-right:50px ; padding-top: 5px;"  >
+        <h3><b>Discover your level of English with our quick,<br>free online test</b></h3>
+
+        <div class="image"></div>
+<div class="text">
+    <form name="kaung1"  >
+        <div class="login-box">
+            <h2>Final Result</h2>
+            <p id="k1"></p>
+
+        
+       </div> 
+       </form>
+        
+    </body>
+    <script>
+        var e =localStorage.getItem("name");
+             document.getElementById("k1").innerHTML="Dear    "+  e +" , <br><br>";
+ 
+        var o=localStorage.getItem("score");
+             document.getElementById("k1").innerHTML+=  "You got "+o +" Out of 10. "+"<br><br>";
+
+             if(localStorage.getItem("score")>=9)
+             {
+                document.getElementById("k1").innerHTML+="Your Level-Intermediate";
+             }
+             if(localStorage.getItem("score")>6 && 8>=localStorage.getItem("score"))
+             {
+                document.getElementById("k1").innerHTML+="Your Level-Preintermediate";
+             }
+             if(localStorage.getItem("score")>3 && 6>=localStorage.getItem("score"))
+             {
+                document.getElementById("k1").innerHTML+="Your Level-Elementry";
+             }
+             if(localStorage.getItem("score")>0 && 3>=localStorage.getItem("score"))
+             {
+                document.getElementById("k1").innerHTML+="Your Level- Beginner";
+             }
+    </script>
+</html>
